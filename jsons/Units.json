@@ -19,7 +19,7 @@
 	
 	{
 		"name": "Auxiliary Cavalry",
-		"replace": "Cavalry",
+		"replaces": "Cavalry",
 		"uniqueTo": "Arxia",
 		"unitType": "Mounted",
 		"movement": 4,
