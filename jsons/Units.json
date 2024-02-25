@@ -37,6 +37,7 @@
 		"civilopediaText": [
 			{"text": "A light cavalry unit made up of tribes subject to Arxia. Less powerful than standard cavalry, their aim is to scout out and quickly attack enemy positions."
 	},
+			
 	{
 		"name": "Secret Seekers",
 		"replaces": "Scout",
