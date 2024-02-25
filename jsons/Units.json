@@ -38,6 +38,24 @@
 			{"text": "A light cavalry unit made up of tribes subject to Arxia. Less powerful than standard cavalry, their aim is to scout out and quickly attack enemy positions."}
 		]
 	},
+	
+	{
+		"name": "Stormtrooper",
+		"replaces": "Infantry",
+		"uniqueTo": "Urg"
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 52,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Lightsaberman",
+		"obsoleteTech": "Lasers",
+		"attackSound": "shot",
+		"promotions": ["Battlecry"],
+		"civilopediaText": [
+			{"text": "The Urg Army's fearsome elite infantry. Born to die a second time, but not before crushing their enemies."}
+		]
+	},
 			
 	{
 		"name": "Secret Seekers",
