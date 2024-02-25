@@ -16,27 +16,26 @@
 			{"text": "A special guard created to protect the territory of the Dukedom of Nas"}
 		]
 	},
-
-
-
 	
 	{
-		"name": "Troll Shaman",
-		"replaces": "Great General",
-		"uniqueTo": "The Trolls",
-		"unitType": "Civilian",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", 
-			    "Can instantly construct a [Citadel] improvement <by consuming this unit>", 
-			    "Great Person - [War]",
-			    "All adjacent units heal [+10] HP when healing",
-			    "[+1] Movement <in [Forest] tiles>", 
-			    "[+1] Movement <in [Jungle] tiles>",
-                            "[+1] Movement <in [Marsh] tiles>",
-			    "Unbuildable", "Uncapturable"],
-		"movement": 2,
+		"name": "Auxiliary Cavalry",
+		"replace": "Cavalry",
+		"uniqueTo": "Arxia",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"cost": 175,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking",
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse",
+		"promotions": ["Depredation"],
 		"civilopediaText": [
-			{"text": "Tactical minded trolls, capable of leading and healing their troops."}
-		]
+			{"text": "A light cavalry unit made up of tribes subject to Arxia. Less powerful than standard cavalry, their aim is to scout out and quickly attack enemy positions."
 	},
 	{
 		"name": "Secret Seekers",
