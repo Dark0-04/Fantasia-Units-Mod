@@ -11,7 +11,7 @@
 		"upgradesTo": "Anti-Tank Crew",
 		"obsoleteTech": "Combustion",
 		"attackSound": "shot",
-	        "promotions": ["Formation","[Nassette Guard] ability"],
+	        "promotions": ["Formation"],
 		"civilopediaText": [
 			{"text": "A special guard created to protect the territory of the Dukedom of Nas"}
 		]
