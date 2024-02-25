@@ -4,6 +4,7 @@
                 "replaces": "Pike and Shot",
                 "uniqueTo": "Nas",
 		"unitType": "Anti-Cav",
+	        "unique": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"movement": 2,
 		"strength": 38,
 		"cost": 280,
@@ -11,7 +12,7 @@
 		"upgradesTo": "Anti-Tank Crew",
 		"obsoleteTech": "Combustion",
 		"attackSound": "shot",
-	        "promotions": ["Formation","[Nassette Guard] ability"],
+	        "promotions": ["Formation"],
 		"civilopediaText": [
 			{"text": "A special guard created to protect the territory of the Dukedom of Nas"}
 		]
