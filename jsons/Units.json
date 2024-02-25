@@ -12,7 +12,7 @@
 		"obsoleteTech": "Combustion",
                 "uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "shot",
-	        "promotions": ["Formation"],
+	        "promotions": ["Formation","[Nassette Guard] ability"],
 		"civilopediaText": [
 			{"text": "A special guard created to protect the territory of the Dukedom of Nas"}
 		]
