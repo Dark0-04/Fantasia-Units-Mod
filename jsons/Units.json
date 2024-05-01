@@ -291,14 +291,5 @@
 		"uniques": ["[+200]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-	{
-		"name": "Elemental Mage",
-		"unitType": "Mage",
-		"movement": 2,
-		"strength": 60,
-		"cost": 410,
-		"requiredTech": "Rocketry",
-		"uniques": ["[+150]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
+	
 ]
