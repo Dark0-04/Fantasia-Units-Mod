@@ -37,7 +37,7 @@
 		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
 					"[+33]% Strength <vs [Armored] units> <when attacking>"]
     },
-	{
+    {
         "name": "Militia",
 	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
         "movementType": "Land"
