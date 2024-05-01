@@ -543,7 +543,7 @@
 	//heli
 	
 	{
-		"name": "Light Gunship",
+		"name": "Helicopter Gunship",
 		"unitType": "Airship",
 		"movement": 6,
 		"strength": 60,
