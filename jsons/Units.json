@@ -199,4 +199,31 @@
 		"requiredTech": "Computers",
 		"attackSound": "shot"
 	},
+//amphibious
+	{
+		"name": "Naval Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"cost": 310,
+		"requiredTech": "Replaceable Parts",
+		"obsoleteTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["Defense bonus when embarked"],
+		"upgradesTo": "Marine",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 350,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Lightsaberman",
+		"promotions": ["Amphibious"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"attackSound": "shot"
+	},
+
 ]
