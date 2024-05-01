@@ -87,4 +87,31 @@
 		]
 	},
 
+	//anticav
+
+	{
+		"name": "Spearman",
+		"unitType": "Anti-Cav",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Heavy Infantry",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},	
+
+	{
+		"name": "Heavy Infantry",
+		"unitType": "Anti-Cav",
+		"movement": 2,
+		"strength": 14,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+10]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
 ]
