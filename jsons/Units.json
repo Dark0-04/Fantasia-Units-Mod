@@ -226,4 +226,79 @@
 		"attackSound": "shot"
 	},
 
+	//siegeA
+	{
+		"name": "Siege Ram",
+		"unitType": "Sword", 
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Medieval Siege Tower",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-50]% Strength <when defending>",
+		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight", "Ignores Zone of Control"],
+		"attackSound": "throw"
+	},
+	
+	{
+		"name": "Medieval Siege Tower",
+		"unitType": "Sword", 
+		"movement": 2,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Alchemy",
+		"upgradesTo": "Grenadier",
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control","[-15]% Strength <when defending>"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Grenadier",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Demolition Sapper",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Niter"
+		"uniques": ["[+150]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Demolition Sapper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Mana Battery",
+		"upgradesTo": "Flamethrower",
+		"requiredResource": "Niter"
+		"uniques": ["[+150]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Flamethrower",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"cost": 370,
+		"requiredTech": "Mana Battery",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Elemental Mage",
+		"uniques": ["[+200]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Elemental Mage",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 60,
+		"cost": 410,
+		"requiredTech": "Rocketry",
+		"uniques": ["[+150]% Strength <vs cities>", ["[+10]% Strength <vs [Military] units> <when attacking>"], "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
 ]
