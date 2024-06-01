@@ -16,4 +16,22 @@
 			{"text": "A special guard created to protect the territory of the Dukedom of Nas"}
 		]
 	},
+	{
+		"name": "Triton",
+		"unitType": "Gunpowder",
+		"replaces": "Lightsaberman",
+		"uniqueTo": "Almuria",
+		"movement": 2,
+		"strength": 70,
+		"cost": 390,
+		"requiredTech": "Lasers",
+		"requiredResource": "Kyber",
+		"uniques": ["[+10]% Strength <vs [Cyborg] units> <when attacking>", "[+10]% Strength <when defending>", 
+					"Never appears as a Barbarian unit"],
+		"promotions": ["Shock","Water Creature"],
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "Almuria's main modern infantry force. In addition to being much more versatile, Tritons are more resistant thanks to their scales"}
+		]
+	},
 ]
