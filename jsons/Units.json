@@ -71,4 +71,26 @@
 			{"text": "The latest invention of the Dwarni. This mecha is the 25th in the famous Khal series. Combining armor and low cost, the Khal are the defenders of the Dwargon Kingdom "}
 		]
 	},
+	{
+		"name": "New Eldariya Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Eldariya",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"requiredResource": "Horses",
+		"promotions": ["Reclaimers"],
+		"uniques": ["Can move after attacking",
+					"No defensive terrain bonus",
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+		"civilopediaText": [
+			{"text": "Here to reclaim their past. The glorious Eldariya."}
+		]
+	},
 ]
