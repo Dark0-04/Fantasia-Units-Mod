@@ -54,4 +54,21 @@
 			{"text": "A heavier tank, therefore slower but more powerful. This monster represents in itself the power of the Arxian Army, but nevertheless fears anti-tank weapons."}
 		]
 	},
+	{
+		"name": "Khal Mk. XXV",
+		"unitType": "Construct",
+		"replaces": "Carbon-Fiber Golem",
+		"uniqueTo": "Dwargon"
+		"movement": 2,
+		"strength": 65,
+		"cost": 365,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Adamantium",
+		"promotions": ["Tortoise"],
+		"uniques": ["Can pass through impassable tiles", "[+33]% Strength <when fighting in [Friendly Land] tiles>"],
+		"attackSound": "gdrAttack",
+		"civilopediaText": [
+			{"text": "The latest invention of the Dwarni. This mecha is the 25th in the famous Khal series. Combining armor and low cost, the Khal are the defenders of the Dwargon Kingdom "}
+		]
+	},
 ]
