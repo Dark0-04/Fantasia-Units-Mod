@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"name": "New Eldariya Cavalry",
+		"name": "Reclaimers",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
 		"uniqueTo": "Eldariya",
@@ -83,7 +83,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"requiredResource": "Horses",
-		"promotions": ["Reclaimers"],
+		"promotions": ["[Reclaimers] ability"],
 		"uniques": ["Can move after attacking",
 					"No defensive terrain bonus",
 					"[-33]% Strength <vs cities> <when attacking>", 
