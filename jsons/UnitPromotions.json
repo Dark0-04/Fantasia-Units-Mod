@@ -4,7 +4,7 @@
 		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
 	}
 	{
-		"name": "[Reclaimers]",
+		"name": "[Reclaimers] ability",
 		"uniques": ["Earn [20]% of the damage done to [Military] units as [Culture]"]
 	}
 
