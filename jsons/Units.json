@@ -29,9 +29,29 @@
 		"uniques": ["[+10]% Strength <vs [Cyborg] units> <when attacking>", "[+10]% Strength <when defending>", 
 					"Never appears as a Barbarian unit"],
 		"promotions": ["Shock","Water Creature"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Almuria's main modern infantry force. In addition to being much more versatile, Tritons are more resistant thanks to their scales"}
+		]
+	},
+	{
+		"name": "Praetorian",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Arxia",
+		"movement": 4,
+		"strength": 75,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		//"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"Never appears as a Barbarian unit", "[-50]% Strength <vs [Anti-Armor] units>"],
+		"promotions": ["Impetus"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": "A heavier tank, therefore slower but more powerful. This monster represents in itself the power of the Arxian Army, but nevertheless fears anti-tank weapons."}
 		]
 	},
 ]
