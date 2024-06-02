@@ -7,5 +7,9 @@
 		"name": "[Reclaimers] ability",
 		"uniques": ["Earn [20]% of the damage done to [Military] units as [Culture]"]
 	}
+	{
+		"name": "[Frost-thrower] ability",
+		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <when fighting in [Snow] tiles>", "[+20]% Strength <when fighting in [Tundra] tiles>"]
+	}
 
 ]
