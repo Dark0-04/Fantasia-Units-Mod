@@ -93,4 +93,22 @@
 			{"text": "Here to reclaim their past. The glorious Eldariya."}
 		]
 	},
+	{
+		"name": "Frost-thrower",
+		"unitType": "Mage",
+		"replaces": "Flamethrower",
+		"uniqueTo": "Frostmorrow",
+		"movement": 2,
+		"strength": 45,
+		"cost": 370,
+		"requiredTech": "Mana Battery",
+		"obsoleteTech": "Rocketry",
+		"upgradesTo": "Elemental Mage",
+		"promotions": ["[Frost-thrower] ability"],
+		"uniques": ["[+125]% Strength <vs cities>", "[-50]% Strength <when fighting in [Desert] tiles>", "Never appears as a Barbarian unit", "[-33]% Strength <when defending>"],
+		"attackSound": "shot"
+		"civilopediaText": [
+			{"text": "Using magical frost batteries, frost-throwers benefit from an attack bonus, which is increased in combat on cold terrain, but which decreases in combat on desert."}
+		]
+	},
 ]
