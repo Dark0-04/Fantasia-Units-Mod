@@ -115,7 +115,7 @@
 		"name": "Ghost Troopers",
 		"unitType": "Gunpowder",
 		"replaces": "Paratrooper",
-		"uniqueTo": "Ilythir",
+		"uniqueTo": "Ilythiir",
 		"movement": 2,
 		"strength": 60,
 		"cost": 375,
