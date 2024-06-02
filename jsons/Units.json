@@ -121,7 +121,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"promotions": ["[Elusive]"],
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "May capture killed [Military] units <with [40]% chance>", "Never appears as a Barbarian unit", "Invisible to [non-adjacent] units"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "May capture killed [Military] units <with [40]% chance>", "Never appears as a Barbarian unit", "Invisible to non-adjacent units"],
 		"attackSound": "shot",
 		"upgradesTo": "Teleporter",
 		"civilopediaText": [
