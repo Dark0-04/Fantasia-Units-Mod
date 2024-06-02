@@ -11,9 +11,4 @@
 		"name": "[Frost-thrower] ability",
 		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <when fighting in [Snow] tiles>", "[+20]% Strength <when fighting in [Tundra] tiles>"]
 	}
-	{
-		"name": "Elusive",
-		"uniques": ["May withdraw before melee ([50]%)"]
-	},
-
 ]
