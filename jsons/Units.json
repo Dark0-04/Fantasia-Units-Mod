@@ -127,4 +127,21 @@
 			{"text": "An elite unit, deployed behind enemy lines for a rapid surprise attack. Can also force prisoners of war to fight for us."}
 		]
 	},
+	{
+		"name": "Zö-7 anti-tank gun",
+		"unitType": "Anti-Armor",
+		"replaces": "Anti-Tank Crew",
+		"uniqueTo": "Malus",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Cyborg",
+		"uniques": ["Never appears as a Barbarian unit", "[+25]% Strength <vs [Armored] units> <when attacking>"],
+		"promotions": ["Formation"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{"text": "The Zö-7 is a Malusian anti-tank gun known for its reliability and effectiveness."}
+		]
+	},
 ]
