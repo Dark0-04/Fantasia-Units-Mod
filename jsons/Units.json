@@ -144,4 +144,23 @@
 			{"text": "The Zö-7 is a Malusian anti-tank gun known for its reliability and effectiveness."}
 		]
 	},
+	{
+		"name": "Death Cannon",
+		"unitType": "Mage",
+		"replaces": "Spellcasting Artillery",
+		"uniqueTo": "Necropoleis",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 500,
+		"requiredTech": "Radar",
+		"requiredResource": "Rune Stone",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Military] units> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "Can carry [2] [Tactical Spell] units", "Can carry [2] [Strategic Spell] units", "Never appears as a Barbarian unit", "[-75]% Strength <when defending>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "torpedo",
+		"civilopediaText": [
+			{"text": "The heavy artillery of Necropoleis. The Death Cannon uses dark magic spells, giving it more strength against enemy units. It can also carry cast a second strategic spell, but is very vulnerable in close combat."}
+		]
+	},
 ]
