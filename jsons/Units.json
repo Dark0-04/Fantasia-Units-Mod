@@ -163,4 +163,21 @@
 			{"text": "The heavy artillery of Necropoleis. The Death Cannon uses dark magic spells, giving it more strength against enemy units. It can also carry cast a second strategic spell, but is very vulnerable in close combat."}
 		]
 	},
+	{
+		"name": "Peacekeeper",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Niranna",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Lightsaberman",
+		"obsoleteTech": "Lasers",
+		"promotions": ["[Peacekeeper] ability"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "An elite unit, deployed behind enemy lines for a rapid surprise attack. Can also force prisoners of war to fight for us."}
+		]
+	},
 ]
