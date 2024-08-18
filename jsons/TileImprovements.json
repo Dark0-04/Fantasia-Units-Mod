@@ -1,0 +1,14 @@
+[
+  {
+		"name": "Legion Office",
+    "uniqueTo": "Thallin",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"happiness": 2,
+    "culture": 1,
+		"techRequired": "Mass Media",
+		"uniques": ["[+1 Culture] <after adopting Oligarchy>", "[+1 Happiness] <after discovering [Computers]", "Gives a defensive bonus of [+10]%", "Removes removable features when built", "[-2 Food] <in [Grassland] tiles>", "[-1 Food, -1 Production] <in [Plains] tiles>", "[-2 Production] <in [Hill] tiles>", "[-1 Food] <in [Tundra] tiles>", "Tile provides yield without assigned population"],
+    "civilopediaText": [
+			{"text": "The Legion Bureau is where propaganda is spread in the region, and where political dissidents are imprisoned and tortured. Since it does not require a population to operate, the Legion Bureau is effective in combating unhappiness, however it does remove the yield from your land, so think carefully before placing one."}
+    ]
+	},
+]
