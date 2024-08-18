@@ -165,19 +165,17 @@
 	},
 	{
 		"name": "Peacekeeper",
-		"unitType": "Gunpowder",
-		"replaces": "Infantry",
+		"unitType": "Militia",
+		"replaces": "Irregulars",
 		"uniqueTo": "Niranna",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Lightsaberman",
-		"obsoleteTech": "Lasers",
-		"promotions": ["[Peacekeeper] ability"],
-		"attackSound": "shot",
+		"movement": 3,
+		"strength": 45,
+		"cost": 100,
+		"uniques": ["May upgrade to [Lightsaberman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-25]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-1] Movement <in [Foreign Land] tiles>", "[+50]% Strength <when defending>", "[+10]% Strength bonus for [Peacekeeper] units within [1] tiles"],
+		"requiredTech": "Computers",
+		"attackSound": "shot"
 		"civilopediaText": [
-			{"text": "An elite unit, deployed behind enemy lines for a rapid surprise attack. Can also force prisoners of war to fight for us."}
+			{"text": "Peacekeepers are defense-focused units. Put a group of several units in a critical point and that should do the trick."}
 		]
 	},
 ]
