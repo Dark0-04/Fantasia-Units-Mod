@@ -1,7 +1,7 @@
 [
 	{
 		"name": "[Nassette Guard] ability",
-		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["[+10]% Strength <in [Friendly Land] tiles>"]
 	}
 	{
 		"name": "[Reclaimers] ability",
@@ -13,6 +13,6 @@
 	}
 	{
 		"name": "[Sazist Legion] ability",
-		"uniques": ["Earn [15]% of the damage done to [Military] units as [Culture]", "Invisible to non-adjacent units", "Can instantly construct a [Legion Office] improvement by consuming this unit"]
+		"uniques": ["Earn [15]% of the damage done to [Military] units as [Culture]", "Invisible to non-adjacent units", "Can instantly construct a [Legion Office] improvement <by consuming this unit>"]
 	}
 ]
