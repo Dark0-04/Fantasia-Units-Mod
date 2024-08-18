@@ -178,4 +178,17 @@
 			{"text": "Peacekeepers are defense-focused units. Put a group of several units in a critical point and that should do the trick."}
 		]
 	},
+	{
+		"name": "Zealot",
+		"unitType": "Militia",
+		"replaces": "Conscripts",
+		"uniqueTo": "Sanctum Regalia",
+		"movement": 4,
+		"strength": 30,
+		"cost": 80,
+		"uniques": ["May upgrade to [Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[+125]% Strength <when attacking>", "[-75]% maintenance costs", "[-50]% Strength <when defending>", "Can be purchased for [80] [Faith]", "Can move immediately once bought", "Religious Unit"],
+		"upgradesTo": "Irregulars",
+		"requiredTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
 ]
