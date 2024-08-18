@@ -9,7 +9,7 @@
 	}
 	{
 		"name": "[Frost-thrower] ability",
-		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <when fighting in [Snow] tiles>", "[+20]% Strength <when fighting in [Tundra] tiles>"]
+		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <in [Snow] tiles>", "[+20]% Strength <in [Tundra] tiles>"]
 	}
 	{
 		"name": "[Sazist Legion] ability",
