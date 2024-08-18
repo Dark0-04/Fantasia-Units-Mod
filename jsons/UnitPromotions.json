@@ -11,4 +11,8 @@
 		"name": "[Frost-thrower] ability",
 		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <when fighting in [Snow] tiles>", "[+20]% Strength <when fighting in [Tundra] tiles>"]
 	}
+	{
+		"name": "[Sazist Legion] ability",
+		"uniques": ["Earn [15]% of the damage done to [Military] units as [Culture]", "Invisible to non-adjacent units", "Can instantly construct a [Legion Office] improvement by consuming this unit"]
+	}
 ]
