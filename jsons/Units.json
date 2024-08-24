@@ -210,4 +210,22 @@
 			{"text": "This secret police patrols the streets of cities looking for opponents to eliminate, while ensuring that government propaganda is spread."}
 		]
 	},
+	{
+		"name": "Shock Troopers",
+		"unitType": "Armored",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "Thorin",
+		"movement": 4,
+		"strength": 70,
+		"cost": 400,
+		"requiredTech": "Bionic Physiology",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control", "[-40]% Strength <vs [Armored] units>"],
+		"attackSound": "tankshot"
+		"promotions": ["Shock", "Charge"],
+		"civilopediaText": [
+			{"text": "Mechanized infantry, adapted to Thorin's military doctrine. This gives a powerful and fast unit."}
+		]
+		
+	},
 ]
